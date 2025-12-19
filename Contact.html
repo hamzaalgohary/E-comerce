@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/resources/TG.jpg">
+    <link rel="icon" type="image/png" href="/resources/TG.jpg">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">TechStore</div>
+                <div class="search-cart">
+                    <!-- <div class="search-box">
+                        <input type="text" placeholder="Search products..." id="searchInput">
+                        <button onclick="searchProducts()">Search</button>
+                    </div> -->
+                    <div class="cart-icon" id="cartIcon">
+                        🛒 <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help! Get in touch with our team</p>
+        </div>
+    </section>
+    
+    <!-- Contact Content -->
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+2010000002200</p>
+                        <p>Monday - Friday: 9AM - 8PM</p>
+                        <p>Saturday: 10AM - 6PM</p>
+                        <p>Sunday: 12PM - 5PM</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@TechStore.com</p>
+                        <p>support@TechStore.com</p>
+                        <p>We respond within 24 hours</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Address</h3>
+                        <p>123 Tech Street</p>
+                        <p>Near from Iti ,Fayoum</p>
+                        <p>Egypt</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">🕒</div>
+                    <div>
+                        <h3>Store Hours</h3>
+                        <p>Monday - Friday: 10AM - 9PM</p>
+                        <p>Saturday: 10AM - 8PM</p>
+                        <p>Sunday: 12PM - 6PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h2>Send us a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="order">Order Status</option>
+                            <option value="return">Returns & Refunds</option>
+                            <option value="partnership">Business Partnership</option>
+                            <option value="complaint">Complaint</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Please describe how we can help you..."></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                            Subscribe to our newsletter for updates and special offers
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What is your return policy?</h3>
+                    <p>We offer a 30-day return policy for all products. Items must be in original condition with all accessories and packaging.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer international shipping?</h3>
+                    <p>Currently, we ship within the United States. International shipping will be available soon.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How can I track my order?</h3>
+                    <p>Once your order ships, you'll receive a tracking number via email. You can use this to track your package on our website.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you price match?</h3>
+                    <p>Yes! We offer price matching on identical products from authorized retailers. Contact us with the competitor's price.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept all major credit cards, PayPal, Apple Pay, Google Pay, and financing options through Klarna.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is my personal information secure?</h3>
+                    <p>Yes, we use industry-standard SSL encryption to protect your personal and payment information.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Your one-stop shop for all tech products and accessories.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@TechStore.com</p>
+                    <p>Phone: +2010000002200</p>
+                    <p>Address: 123 Tech Street near form ITI ,Fayoum </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

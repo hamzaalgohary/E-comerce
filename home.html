@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechGadget - Electronics Store</title>
-     <link rel="stylesheet" href="style.css">
+    <title>TechStore - Electronics Store</title>
+    <link rel="icon" type="image/x-icon" href="/resources/TG.jpg">
+    <link rel="icon" type="image/png" href="/resources/TG.jpg">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">TechGadget</div>
+                <div class="logo">TechStore</div>
                 <div class="search-cart">
                     <div class="search-box">
                         <input type="text" placeholder="Search products..." id="searchInput">
@@ -28,15 +31,38 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <ul class="categories">
+            <ul class="nav-menu">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+            </ul>
+            <!-- <ul class="categories">
                 <li class="active" data-category="all">All Products</li>
                 <li data-category="laptops">Laptops</li>
                 <li data-category="smartphones">Smartphones</li>
                 <li data-category="tablets">Tablets</li>
                 <li data-category="accessories">Accessories</li>
-            </ul>
+            </ul> -->
         </div>
     </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to TechStore</h1>
+                <p>Discover the latest technology and gadgets at unbeatable prices</p>
+                <button class="hero-btn" onclick="document.querySelector('.products').scrollIntoView()">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    
+ 
+
+
+
     
     <!-- Main Content -->
     <div class="container">
@@ -62,6 +88,7 @@
                         <label><input type="checkbox" name="brand" value="dell"> Dell</label>
                         <label><input type="checkbox" name="brand" value="hp"> HP</label>
                         <label><input type="checkbox" name="brand" value="lenovo"> Lenovo</label>
+                        <label><input type="checkbox" name="brand" value="sony"> Sony</label>
                     </div>
                 </div>
                 
@@ -94,7 +121,31 @@
             </section>
         </div>
     </div>
-    
+       <!-- Special Offers Countdown -->
+<section class="special-offers" id="specialOffers">
+    <div class="container">
+        <h2>⏰ Special Offers Ending Soon! </h2>
+        <div class="countdown-container">
+            <div class="countdown-box">
+                <span id="countdown-days">00</span>
+                <small>Days</small>
+            </div>
+            <div class="countdown-box">
+                <span id="countdown-hours">00</span>
+                <small>Hours</small>
+            </div>
+            <div class="countdown-box">
+                <span id="countdown-minutes">00</span>
+                <small>Minutes</small>
+            </div>
+            <div class="countdown-box">
+                <span id="countdown-seconds">00</span>
+                <small>Seconds</small>
+            </div>
+        </div>
+        <p> Hurry up! These amazing deals won't last long.</p>
+    </div>
+</section>
     <!-- Cart Modal -->
     <div class="modal" id="cartModal">
         <div class="modal-content">
@@ -120,30 +171,30 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>TechGadget</h3>
+                    <h3>TechStore</h3>
                     <p>Your one-stop shop for all tech products and accessories.</p>
+                    <p>This is Project make form team in iti </p>
                 </div>
                 
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h3>Contact Info</h3>
-                    <p>Email: info@techgadget.com</p>
-                    <p>Phone: +1 (123) 456-7890</p>
-                    <p>Address: 123 Tech Street, Silicon Valley, CA</p>
+                    <p>Email: info@TechStore.com</p>
+                    <p>Phone: +2010000002200</p>
+                    <p>Address: 123 Tech Street near form ITI ,Fayoum </p>
                 </div>
             </div>
         </div>
     </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

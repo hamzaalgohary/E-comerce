@@ -1,0 +1,232 @@
+{
+"products": [
+        {
+            "id": 1,
+            "name": "MacBook Pro 16\"",
+            "price": 2399,
+            "category": "laptops",
+            "brand": "apple",
+            "image": "/resources/MacBook Pro 16.jpg",
+            "description": "Powerful laptop for professionals with M2 Pro chip, 16GB RAM, and 512GB SSD. Perfect for video editing, software development, and demanding creative work.",
+            "stock": 15,
+            "features": ["M2 Pro Chip", "16GB RAM", "512GB SSD", "16-inch Display", "Touch Bar"],
+            "specifications": {
+                "processor": "Apple M2 Pro",
+                "memory": "16GB Unified Memory",
+                "storage": "512GB SSD",
+                "display": "16-inch Liquid Retina XDR",
+                "battery": "Up to 22 hours",
+                "weight": "4.7 lbs"
+            }
+        },
+        {
+            "id": 2,
+            "name": "iPhone 13 Pro",
+            "price": 999,
+            "category": "smartphones",
+            "brand": "apple",
+            "image": "/resources/iPhone 13 Pro.jpg",
+            "description": "Latest iPhone with advanced camera system, A15 Bionic chip, and 5G connectivity. Features ProRAW photography and Cinematic mode.",
+            "stock": 20,
+            "features": ["A15 Bionic Chip", "Pro Camera System", "5G Connectivity", "ProRAW", "Cinematic Mode"],
+            "specifications": {
+                "processor": "A15 Bionic",
+                "storage": "128GB",
+                "display": "6.1-inch Super Retina XDR",
+                "camera": "Triple 12MP system",
+                "battery": "Up to 22 hours video",
+                "weight": "7.19 oz"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Samsung Galaxy S21",
+            "price": 799,
+            "category": "smartphones",
+            "brand": "samsung",
+            "image": "/resources/Samsung Galaxy S21.jpg",
+            "description": "Powerful Android smartphone with advanced camera system, 5G connectivity, and premium design. Features 120Hz display and all-day battery.",
+            "stock": 18,
+            "features": ["Snapdragon 888", "120Hz Display", "Triple Camera", "5G Ready", "Wireless Charging"],
+            "specifications": {
+                "processor": "Snapdragon 888",
+                "memory": "8GB RAM",
+                "storage": "128GB",
+                "display": "6.2-inch Dynamic AMOLED",
+                "camera": "Triple 12MP + 64MP + 12MP",
+                "battery": "4000mAh"
+            }
+        },
+        {
+            "id": 4,
+            "name": "iPad Air",
+            "price": 599,
+            "category": "tablets",
+            "brand": "apple",
+            "image": "/resources/iPad Air.jpg",
+            "description": "Versatile tablet for work and play with M1 chip, 10.9-inch display, and Apple Pencil support. Perfect for creative professionals and students.",
+            "stock": 12,
+            "features": ["M1 Chip", "10.9-inch Display", "Apple Pencil Support", "Magic Keyboard Compatible", "All-day Battery"],
+            "specifications": {
+                "processor": "Apple M1",
+                "memory": "8GB RAM",
+                "storage": "64GB",
+                "display": "10.9-inch Liquid Retina",
+                "camera": "12MP Wide + 12MP Ultra Wide",
+                "weight": "1.02 lbs"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Dell XPS 13",
+            "price": 1299,
+            "category": "laptops",
+            "brand": "dell",
+            "image": "/resources/Dell XPS 13.jpg",
+            "description": "Sleek and powerful ultrabook with Intel Core i7, 16GB RAM, and stunning InfinityEdge display. Ideal for business and productivity.",
+            "stock": 8,
+            "features": ["Intel Core i7", "16GB RAM", "512GB SSD", "InfinityEdge Display", "Premium Build"],
+            "specifications": {
+                "processor": "Intel Core i7-1185G7",
+                "memory": "16GB LPDDR4x",
+                "storage": "512GB SSD",
+                "display": "13.4-inch FHD+",
+                "battery": "Up to 14 hours",
+                "weight": "2.64 lbs"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Samsung Galaxy Tab S7",
+            "price": 649,
+            "category": "tablets",
+            "brand": "samsung",
+            "image": "/resources/Samsung Galaxy Tab S7.jpg",
+            "description": "Premium Android tablet with S Pen included, 120Hz display, and powerful performance for creativity and productivity.",
+            "stock": 10,
+            "features": ["Snapdragon 865+", "120Hz Display", "S Pen Included", "DeX Mode", "Quad Speakers"],
+            "specifications": {
+                "processor": "Snapdragon 865+",
+                "memory": "6GB RAM",
+                "storage": "128GB",
+                "display": "11-inch LTPS TFT",
+                "camera": "13MP + 5MP",
+                "battery": "8000mAh"
+            }
+        },
+        {
+            "id": 7,
+            "name": "HP Spectre x360",
+            "price": 1399,
+            "category": "laptops",
+            "brand": "hp",
+            "image": "/resources/HP Spectre x360.jpg",
+            "description": "Convertible laptop with premium design, Intel Evo platform, and versatile 2-in-1 functionality. Perfect for creative professionals.",
+            "stock": 7,
+            "features": ["Intel Evo Platform", "2-in-1 Design", "OLED Display", "Bang & Olufsen Audio", "Premium Materials"],
+            "specifications": {
+                "processor": "Intel Core i7-1165G7",
+                "memory": "16GB RAM",
+                "storage": "512GB SSD",
+                "display": "13.5-inch OLED Touch",
+                "battery": "Up to 17 hours",
+                "weight": "3.01 lbs"
+            }
+        },
+        {
+            "id": 8,
+            "name": "AirPods Pro",
+            "price": 249,
+            "category": "accessories",
+            "brand": "apple",
+            "image": "/resources/AirPods Pro.jpg",
+            "description": "Wireless noise cancelling earbuds with spatial audio, adaptive transparency, and personalized listening experience.",
+            "stock": 25,
+            "features": ["Active Noise Cancellation", "Spatial Audio", "Adaptive Transparency", "Personalized Listening", "MagSafe Charging"],
+            "specifications": {
+                "chip": "H2 Chip",
+                "battery": "Up to 6 hours + 24 hours with case",
+                "connectivity": "Bluetooth 5.3",
+                "features": "IPX4 Water Resistant",
+                "charging": "Lightning + MagSafe",
+                "weight": "0.19 oz each"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Lenovo ThinkPad X1",
+            "price": 1499,
+            "category": "laptops",
+            "brand": "lenovo",
+            "image": "/resources/Lenovo ThinkPad X1.jpg",
+            "description": "Business laptop with excellent keyboard, military-grade durability, and enterprise security features. Built for professionals.",
+            "stock": 9,
+            "features": ["Intel vPro", "Military-Grade Durability", "ThinkShield Security", "Excellent Keyboard", "Lightweight Design"],
+            "specifications": {
+                "processor": "Intel Core i7-1185G7",
+                "memory": "16GB RAM",
+                "storage": "512GB SSD",
+                "display": "14-inch FHD",
+                "battery": "Up to 15 hours",
+                "weight": "2.8 lbs"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Samsung Galaxy Watch",
+            "price": 299,
+            "category": "accessories",
+            "brand": "samsung",
+            "image": "/resources/Samsung Galaxy Watch.jpg",
+            "description": "Smartwatch with health tracking, fitness monitoring, and seamless connectivity with Android devices.",
+            "stock": 14,
+            "features": ["Health Monitoring", "GPS Tracking", "Water Resistant", "Long Battery", "Samsung Pay"],
+            "specifications": {
+                "display": "1.4-inch Super AMOLED",
+                "battery": "Up to 4 days",
+                "connectivity": "Bluetooth 5.0, WiFi, LTE",
+                "sensors": "Heart Rate, SpO2, Sleep",
+                "compatibility": "Android 6.0+",
+                "water_resistance": "5ATM + IP68"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Apple Watch Series 7",
+            "price": 399,
+            "category": "accessories",
+            "brand": "apple",
+            "image": "/resources/Apple Watch Series 7.jpg",
+            "description": "Advanced smartwatch with always-on display, health monitoring, and seamless iPhone integration.",
+            "stock": 16,
+            "features": ["Always-On Display", "ECG App", "Blood Oxygen", "Fitness Tracking", "Siri Integration"],
+            "specifications": {
+                "display": "45mm Always-On Retina",
+                "battery": "Up to 18 hours",
+                "connectivity": "WiFi, Bluetooth, Cellular",
+                "sensors": "ECG, Blood Oxygen, Heart Rate",
+                "compatibility": "iPhone 6s or later",
+                "water_resistance": "50 meters"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Sony WH-1000XM4 Headphones",
+            "price": 349,
+            "category": "accessories",
+            "brand": "sony",
+            "image": "/resources/Sony WH-1000XM4 Headphones.jpg",
+            "description": "Industry-leading noise canceling headphones with premium sound quality and long battery life.",
+            "stock": 11,
+            "features": ["Industry-Leading NC", "30-Hour Battery", "Quick Charge", "Touch Controls", "Hi-Res Audio"],
+            "specifications": {
+                "driver": "40mm Dome Type",
+                "battery": "Up to 30 hours",
+                "charging": "USB-C Quick Charge",
+                "connectivity": "Bluetooth 5.0, NFC",
+                "weight": "8.96 oz",
+                "features": "Speak-to-Chat, Wearing Detection"
+            }
+        }
+    ]
+}
